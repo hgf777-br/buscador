@@ -1,0 +1,13 @@
+{
+    "name": "hgf777-br/buscador-cursos",
+    "description": "Programa para buscar os cursos no site da Alura",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hgf777-br",
+            "email": "hgf777@gmail.com"
+        }
+    ],
+    "require": {}
+}
