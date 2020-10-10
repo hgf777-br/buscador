@@ -21,6 +21,21 @@
     },
     "require-dev": {
         "phpunit/phpunit": "9",
-        "squizlabs/php_codesniffer": "^3.5"
-    }
+        "squizlabs/php_codesniffer": "^3.5",
+        "phan/phan": "^3.2"
+    },
+    "scripts": {
+        "teste": "phpunit tests\\TestBuscadorDeCursos.php",
+        "cs": "phpcs --standard=PSR12 src\\",
+        "phan": "phan --allow-polyfill-parser",
+        "check": [
+            "@phan",
+            "@cs",
+            "@teste"
+        ]
+    },
+    "scripts-descriptions": {
+        "check": "Roda todos os testes no nosso código"
+    },
+    "bin": ["buscador_cursos.php"]
 }
