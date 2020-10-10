@@ -37,5 +37,5 @@
     "scripts-descriptions": {
         "check": "Roda todos os testes no nosso código"
     },
-    "bin": ["buscador_cursos.php"]
+    "bin": ["buscar_cursos.php"]
 }
